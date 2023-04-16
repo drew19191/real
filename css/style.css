@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 10px;
 }
 header {
   background-color: #373738;
@@ -27,6 +27,28 @@ header p {
   background-color: #FFFFFF;
   text-align: center;
 }
+.flexContainer {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  
+}
+
+h1 {
+  text-align: center;
+}
+
+.skills  {
+  max-width: 300px;
+  text-align: center;}
+
+
+.workGrid{
+  display: flex;
+  justify-content: space-around;
+  text-align: center; 
+}
+
 button {
   padding: 15px;
   background-color: #373738;
@@ -46,4 +68,12 @@ footer ul {
 footer li {
   display: inline-block;
   padding: 0px 7px;
+}
+
+@media only screen and (max-width: 600){
+
+  .flexContainer 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
